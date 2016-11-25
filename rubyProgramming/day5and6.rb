@@ -1,3 +1,5 @@
+#apontar que o ruby é de tipgem forte e dinamica
+
 var = 'Mary Kate Olson Lindsay Lohan Charlie Sheen'
 puts var
 puts var.split
