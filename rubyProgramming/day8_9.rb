@@ -1,13 +1,13 @@
 # user input
 
-# print 'Say your name: '
-# user = gets.chomp
-#
-# puts "Name: #{user}"
-#
-# print 'Once again please?'
-# user = gets.chomp.capitalize
-# puts "Name: #{user}"
+print 'Say your name: '
+user = gets.chomp
+
+puts "Name: #{user}"
+
+print 'Once again please?'
+user = gets.chomp.capitalize
+puts "Name: #{user}"
 
 hash = {}
 

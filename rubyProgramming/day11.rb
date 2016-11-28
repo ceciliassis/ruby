@@ -10,7 +10,7 @@ puts item
 
 puts
 
-for item in array.reverse #each is better
+for item in array.reverse # each is better
   puts item
 end
 
@@ -19,7 +19,7 @@ counter = 1
 array.each do |thing| # variavel do loop, pode ser uma ou varias
   puts "#{counter} : #{thing}"
   # counter -= 1
-  counter += 1
+  counter += 1 # o ruby nao tem o construtor ++
 end
 
 counter = 1
@@ -32,4 +32,4 @@ end
 
 ############################ let's play
 array.each_index { |i| puts i }
-array.reverse.each { |e| puts e.to_s } # loop de bloco, bom para linha unica
+array.reverse_each { |e| puts e.to_s } # loop de bloco, bom para linha unica

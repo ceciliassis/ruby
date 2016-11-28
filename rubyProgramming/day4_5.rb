@@ -26,3 +26,13 @@ puts stirg
 stirg = 'oi'.concat('como').concat('vai')
 puts stirg
 puts stirg.index('oi')
+
+var = 'Mary Kate Olson Lindsay Lohan Charlie Sheen'
+puts var
+puts var.split
+
+date = '11/11/2016'
+date2 = date.split '/' # an array
+puts date2[0]
+puts date[0..5] # inclui o 5
+puts date[0...5] # nao inclui o ultimo char sengundo o indice
