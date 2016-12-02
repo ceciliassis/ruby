@@ -1,6 +1,6 @@
 def factors_to_three(n)
   if n % 3 == 0
-    puts 'your number is a fator of 3'
+    puts "your number is a fator of 3"
   else
     puts "your number ISN'T a factor of 3"
   end
@@ -14,7 +14,7 @@ def factors_to_three(n) # não é legal
   end
 end
 
-def factors_to_three(n)
+def factors_to_three(n) # aqui usamos o guardclause
   if n % 3 == 0
     true
   else
