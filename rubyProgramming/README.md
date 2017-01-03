@@ -18,4 +18,8 @@ https://www.youtube.com/playlist?list=PLMK2xMz5H5Zv8eC8b4K6tMaE1-Z9FgSOp
 11. __Day 13__ - Raiz quadrada e arredondamentos
 12. __Day 14__ - `loop`, `until`, `next` e `while`
 13. __Day 15__ - Encontrar no programa e substituir + `gsub` (função matching __REGEX__)
-14. 
+14. __Day 16__ - Array multidimensional == Matriz?
+15. __Day 17__ - Números primos
+16. __Day 18__ - Histograma(Map)
+17. __Day 19__ - Sort e Comparação <=>
+18. __Day 20__ - Método Sort
