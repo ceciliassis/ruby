@@ -1,7 +1,7 @@
 total = 0
 lines = 2
 
-unitl lines.zero? do
+until lines.zero?
   line = gets.split
   total += (line[1].to_i * line[2].to_f)
   lines -= 1
