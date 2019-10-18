@@ -11,14 +11,12 @@ alias gmg="git merge"
 alias gcm="git commit"
 alias gad="git add"
 alias gbr="git branch"
-
-__git_complete gco _git_checkout
-__git_complete glg _git_log
-__git_complete gst _git_status
-__git_complete gps _git_push
-__git_complete gmg _git_merge
-__git_complete gcm _git_commit
-__git_complete gad _git_add
-__git_complete gbr _git_branch
-
  
+complete -F _git_log glg
+complete -F _git_commit gcm
+complete -F _git_status gst
+complete -F _git_checkout gco
+complete -F _git_push gps
+complete -F _git_merge gmg
+complete -F _git_add gad
+complete -F _git_branch gbr
