@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: onebitflix
+      POSTGRES_PASSWORD: onebitflix
+    ports:
+    - 5432:5432
